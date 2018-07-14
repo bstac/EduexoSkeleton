@@ -19,6 +19,22 @@ class Program
 	while(!inny.Contains("x"))
 	{
 		inny = Console.ReadLine();
+		try
+		{
+			var x = int.Parse(inny);
+			if(x>80 && x< 350)
+			{
+				port.Write(new byte[] { (byte) x}, 0, 1);	
+			}
+			else
+			{
+				Console.WriteLine(inny + " not good");
+			}
+		}
+		catch
+		{
+			Console.WriteLine(inny + " not good");
+		}
 		while(port.BytesToRead > 0)
       		{   
           		byte[] inbyte = new byte[max_buffer];
