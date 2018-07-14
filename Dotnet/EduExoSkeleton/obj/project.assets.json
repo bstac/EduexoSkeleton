@@ -12535,23 +12535,23 @@
     ]
   },
   "packageFolders": {
-    "/home/bstack/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\asus\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/EduExoSkeleton.csproj",
+      "projectUniqueName": "C:\\repositories\\ExuedoSkeleton\\EduexoSkeleton\\Dotnet\\EduExoSkeleton\\EduExoSkeleton.csproj",
       "projectName": "EduExoSkeleton",
-      "projectPath": "/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/EduExoSkeleton.csproj",
-      "packagesPath": "/home/bstack/.nuget/packages/",
-      "outputPath": "/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/obj/",
+      "projectPath": "C:\\repositories\\ExuedoSkeleton\\EduexoSkeleton\\Dotnet\\EduExoSkeleton\\EduExoSkeleton.csproj",
+      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+      "outputPath": "C:\\repositories\\ExuedoSkeleton\\EduexoSkeleton\\Dotnet\\EduExoSkeleton\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/bstack/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

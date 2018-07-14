@@ -1,0 +1,73 @@
+Arduino: 1.8.5 (Windows 7), Board: "Arduino/Genuino Uno"
+
+Sketch uses 1940 bytes (6%) of program storage space. Maximum is 32256 bytes.
+Global variables use 187 bytes (9%) of dynamic memory, leaving 1861 bytes for local variables. Maximum is 2048 bytes.
+An error occurred while uploading the sketch
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
+
+
+Arduino: 1.8.5 (Windows 7), Board: "Arduino/Genuino Uno"
+
+C:\Program Files (x86)\Arduino\arduino-builder -dump-prefs -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\asus\Documents\Arduino\libraries -fqbn=arduino:avr:uno -vid-pid=0X2A03_0X0043 -ide-version=10805 -build-path C:\Users\asus\AppData\Local\Temp\arduino_build_256369 -warnings=none -build-cache C:\Users\asus\AppData\Local\Temp\arduino_cache_19198 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arduinoOTA.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.avr-gcc.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.avrdude.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -verbose C:\repositories\ExuedoSkeleton\EduexoSkeleton\Arduino\EduExoSkeleton\EduExoSkeleton.ino
+C:\Program Files (x86)\Arduino\arduino-builder -compile -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\asus\Documents\Arduino\libraries -fqbn=arduino:avr:uno -vid-pid=0X2A03_0X0043 -ide-version=10805 -build-path C:\Users\asus\AppData\Local\Temp\arduino_build_256369 -warnings=none -build-cache C:\Users\asus\AppData\Local\Temp\arduino_cache_19198 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arduinoOTA.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.avr-gcc.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.avrdude.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -verbose C:\repositories\ExuedoSkeleton\EduexoSkeleton\Arduino\EduExoSkeleton\EduExoSkeleton.ino
+Using board 'uno' from platform in folder: C:\Program Files (x86)\Arduino\hardware\arduino\avr
+Using core 'arduino' from platform in folder: C:\Program Files (x86)\Arduino\hardware\arduino\avr
+Detecting libraries used...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\sketch\EduExoSkeleton.ino.cpp" -o "nul"
+Generating function prototypes...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\sketch\EduExoSkeleton.ino.cpp" -o "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\preproc\ctags_target_for_gcc_minus_e.cpp"
+"C:\Program Files (x86)\Arduino\tools-builder\ctags\5.8-arduino11/ctags" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\preproc\ctags_target_for_gcc_minus_e.cpp"
+Compiling sketch...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\sketch\EduExoSkeleton.ino.cpp" -o "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\sketch\EduExoSkeleton.ino.cpp.o"
+Compiling libraries...
+Compiling core...
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\wiring_pulse.S.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\WInterrupts.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\hooks.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\wiring.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\wiring_analog.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\wiring_digital.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\wiring_pulse.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\wiring_shift.c.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\CDC.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\HardwareSerial.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\HardwareSerial0.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\HardwareSerial1.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\HardwareSerial2.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\HardwareSerial3.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\IPAddress.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\PluggableUSB.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\Print.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\Stream.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\Tone.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\USBCore.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\WMath.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\WString.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\abi.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\main.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\new.cpp.o
+Using previously compiled file: C:\Users\asus\AppData\Local\Temp\arduino_build_256369\core\core.a
+Archiving built core (caching) in: C:\Users\asus\AppData\Local\Temp\arduino_cache_19198\core\core_arduino_avr_uno_0c812875ac70eb4a9b385d8fb077f54c.a
+Linking everything together...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "C:\Users\asus\AppData\Local\Temp\arduino_build_256369/EduExoSkeleton.ino.elf" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369\sketch\EduExoSkeleton.ino.cpp.o" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369/core\core.a" "-LC:\Users\asus\AppData\Local\Temp\arduino_build_256369" -lm
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:\Users\asus\AppData\Local\Temp\arduino_build_256369/EduExoSkeleton.ino.elf" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369/EduExoSkeleton.ino.eep"
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:\Users\asus\AppData\Local\Temp\arduino_build_256369/EduExoSkeleton.ino.elf" "C:\Users\asus\AppData\Local\Temp\arduino_build_256369/EduExoSkeleton.ino.hex"
+Sketch uses 1940 bytes (6%) of program storage space. Maximum is 32256 bytes.
+Global variables use 187 bytes (9%) of dynamic memory, leaving 1861 bytes for local variables. Maximum is 2048 bytes.
+C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avrdude -CC:\Program Files (x86)\Arduino\hardware\tools\avr/etc/avrdude.conf -v -patmega328p -cstk500v2 -Pusb -Uflash:w:C:\Users\asus\AppData\Local\Temp\arduino_build_256369/EduExoSkeleton.ino.hex:i 
+
+avrdude: Version 6.3, compiled on Jan 17 2017 at 12:00:53
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "C:\Program Files (x86)\Arduino\hardware\tools\avr/etc/avrdude.conf"
+
+         Using Port                    : usb
+         Using Programmer              : stk500v2
+An error occurred while uploading the sketch
+avrdude: usbdev_open(): did not find any USB device "usb" (0x03eb:0x2104)
+
+avrdude done.  Thank you.
