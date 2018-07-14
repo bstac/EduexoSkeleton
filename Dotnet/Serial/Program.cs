@@ -7,6 +7,8 @@ using System.IO.Ports;
 
 class Program
 {
+    private const int max_buffer = 1024;
+    private static string cumulative = string.Empty;
     //MSBuild.exe 
     static void Main()
     {
@@ -17,17 +19,18 @@ class Program
 	while(!inny.Contains("x"))
 	{
 		inny = Console.ReadLine();
-		if(port.BytesToRead > 0)
+		while(port.BytesToRead > 0)
       		{   
-          		byte[] inbyte = new byte[1];
-          		port.Read(inbyte, 0, 1);
+          		byte[] inbyte = new byte[max_buffer];
+          		port.Read(inbyte, 0, max_buffer);
           		if (inbyte.Length > 0)
           		{
-              			byte value = (byte)inbyte.GetValue(0);
-              			//do other necessary processing you may want.
-				Console.WriteLine(value);
+				string result = System.Text.Encoding.UTF8.GetString(inbyte);
+				cumulative += result;
           		}
       		}
+		Console.WriteLine(cumulative );
+		cumulative = string.Empty;
 	}
 	port.Close();
     }

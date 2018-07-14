@@ -15,8 +15,11 @@ void setup()
 void loop()
 {
   posIs = analogRead(servoAnalogInPin);
-  sendValue = map(posIs,80,350,0,255);
-  Serial.write(sendValue);
-  Serial.flush();
+  //sendValue = map(posIs,80,350,0,255);
+  //Serial.write(sendValue);
+  Serial.print("Position is: ");
+  Serial.println(posIs);
+  //Serial.flush();
   delay(loopSerialDelay);
+  //analogWrite
 }
