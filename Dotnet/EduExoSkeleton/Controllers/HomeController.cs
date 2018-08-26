@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EduExoSkeleton.Models;
 
+
 namespace EduExoSkeleton.Controllers
 {
     public class HomeController : Controller
@@ -17,15 +18,14 @@ namespace EduExoSkeleton.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Educational Exoskeleton!";
             return View();
         }
 
+
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
+            ViewData["Message"] = "If you have any questions, ask the CEO directly at home...!";
             return View();
         }
 
