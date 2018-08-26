@@ -1,0 +1,10 @@
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/bin/Debug/netcoreapp2.0/EduExoSkeleton.deps.json
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/bin/Debug/netcoreapp2.0/EduExoSkeleton.runtimeconfig.json
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/bin/Debug/netcoreapp2.0/EduExoSkeleton.runtimeconfig.dev.json
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/bin/Debug/netcoreapp2.0/EduExoSkeleton.dll
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/bin/Debug/netcoreapp2.0/EduExoSkeleton.pdb
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/obj/Debug/netcoreapp2.0/EduExoSkeleton.csproj.CoreCompileInputs.cache
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/obj/Debug/netcoreapp2.0/EduExoSkeleton.AssemblyInfoInputs.cache
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/obj/Debug/netcoreapp2.0/EduExoSkeleton.AssemblyInfo.cs
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/obj/Debug/netcoreapp2.0/EduExoSkeleton.dll
+/repos/EduexoSkeleton/EduexoSkeleton/Dotnet/EduExoSkeleton/obj/Debug/netcoreapp2.0/EduExoSkeleton.pdb

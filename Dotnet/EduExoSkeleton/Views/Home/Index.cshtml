@@ -2,6 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
+<h1>BRANDONS EDIT!!!!</h1>
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -65,6 +66,18 @@
     </a>
 </div>
 
+
+
+    <div class="row">  
+       <div id="containercanvas" style="display:block; float: left;min-width:200px;min-height:200px;background-color:white;">  
+          <canvas id="canvas" width=200 height=200 style="min-width:200px;min-height:200px;"></canvas>  
+       </div>  
+    </div>  
+
+
+
+
+
 <div class="row">
     <div class="col-md-3">
         <h2>Application uses</h2>
@@ -104,3 +117,20 @@
         </ul>
     </div>
 </div>
+
+    <script type="text/javascript">  
+    //<![CDATA[  
+       window.addEventListener('resize', function () {  
+          var x = window.innerWidth * 0.7;  
+          x = (x < 200) ? 200 : x;  
+          canvas.width = x;  
+          canvas.height = x;  
+          containercanvas.width = x;  
+          containercanvas.height = x;  
+          var c = document.getElementById("canvas");  
+          var ctx = c.getContext("2d");  
+          ctx.fillStyle = "#00FF00";  
+          ctx.fillRect(0, 0, x/2, x/2);  
+       }, true);  
+    //]]>  
+    </script>  
